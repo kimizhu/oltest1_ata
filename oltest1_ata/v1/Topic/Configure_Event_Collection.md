@@ -31,7 +31,7 @@ For ATA to be able to consume data from a Syslog server, you need to do the foll
 > -   Do not forward all the Syslog data to the ATA Gateway.
 > -   ATA supports UDP traffic from the SIEM/Syslog server.
 
-Refer to your SIEM/Syslog server's product documentation for information on how to configure forwarding of specific events to another server. For more information about the events forwarded to ATA, see [Configure Event Collection](../Topic/Configure_Event_Collection.md).
+Refer to your SIEM/Syslog server's product documentation for information on how to configure forwarding of specific events to another server. For more information about the events forwarded to ATA, see Updated by Jason Zhu, content issue tracked by bug 508237.
 
 ### Windows event forwarding
 If you do not use a SIEM/Syslog server, you can configure your Windows domain controllers to forward Windows Event ID 4776 to be collected and analyzed by ATA. Windows Event ID 4776 provides data regarding NTLM authentications.
